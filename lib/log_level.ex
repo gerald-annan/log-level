@@ -14,14 +14,14 @@ defmodule LogLevel do
 
   def to_label(level, legacy?) do
     # Please implement the to_label/2 function+
-    log = fn [label, support] ->
+    log = fn [label, supported] ->
       cond do
-        support == true ->
+        supported == true ->
           label
 
         true ->
           cond do
-            support == legacy? ->
+            supported == legacy? ->
               label
 
             true ->
