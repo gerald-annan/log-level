@@ -77,6 +77,10 @@ LogLevel.alert_recipient(0, false)
 
 ## Source
 
+### Solved by
+
+- @gerald-annan
+
 ### Created by
 
 - @neenjaw
